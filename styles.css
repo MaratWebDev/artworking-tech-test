@@ -76,7 +76,14 @@ button:focus {
 .hero {
     min-height: 500px;
     background-image: url("images/banner-artworking.png");
+    background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        min-height: 350px;  
+    }
 }
 
 .hero button {
